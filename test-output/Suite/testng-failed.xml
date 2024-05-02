@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.GET_CardDetails">
+        <methods>
+          <include name="GetCardDetails"/>
+          <include name="tearDownTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.GET_CardDetails -->
+      <class name="tests.DELETE_DelateTheCard">
+        <methods>
+          <include name="DeleteTheCard"/>
+          <include name="tearDownTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DELETE_DelateTheCard -->
+      <class name="tests.GET_ListsOfCard">
+        <methods>
+          <include name="GetCardDetails"/>
+          <include name="tearDownTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.GET_ListsOfCard -->
+      <class name="tests.PUT_UpdateDetailsOfCard">
+        <methods>
+          <include name="UpdateTheCard"/>
+          <include name="tearDownTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.PUT_UpdateDetailsOfCard -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

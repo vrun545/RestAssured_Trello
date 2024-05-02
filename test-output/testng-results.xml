@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-17T21:31:43 IST" name="Suite" finished-at="2024-04-17T21:31:48 IST" duration-ms="4688">
+    <groups>
+    </groups>
+    <test started-at="2024-04-17T21:31:43 IST" name="Test" finished-at="2024-04-17T21:31:48 IST" duration-ms="4688">
+      <class name="tests.PUT_UpdateDetailsOfCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PUT_UpdateDetailsOfCard@70ab2d48]" started-at="2024-04-17T21:31:43 IST" name="setup" finished-at="2024-04-17T21:31:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateTheCard()[pri:4, instance:tests.PUT_UpdateDetailsOfCard@70ab2d48]" started-at="2024-04-17T21:31:43 IST" name="UpdateTheCard" finished-at="2024-04-17T21:31:45 IST" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateTheCard -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.PUT_UpdateDetailsOfCard@70ab2d48]" started-at="2024-04-17T21:31:48 IST" name="tearDownTest" finished-at="2024-04-17T21:31:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.PUT_UpdateDetailsOfCard -->
+      <class name="tests.GET_CardDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GET_CardDetails@8692d67]" started-at="2024-04-17T21:31:43 IST" name="setup" finished-at="2024-04-17T21:31:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetCardDetails()[pri:2, instance:tests.GET_CardDetails@8692d67]" started-at="2024-04-17T21:31:46 IST" name="GetCardDetails" finished-at="2024-04-17T21:31:47 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCardDetails -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.GET_CardDetails@8692d67]" started-at="2024-04-17T21:31:48 IST" name="tearDownTest" finished-at="2024-04-17T21:31:48 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.GET_CardDetails -->
+      <class name="tests.DELETE_DelateTheCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DELETE_DelateTheCard@4b2a01d4]" started-at="2024-04-17T21:31:43 IST" name="setup" finished-at="2024-04-17T21:31:43 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteTheCard()[pri:5, instance:tests.DELETE_DelateTheCard@4b2a01d4]" started-at="2024-04-17T21:31:45 IST" name="DeleteTheCard" finished-at="2024-04-17T21:31:46 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTheCard -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.DELETE_DelateTheCard@4b2a01d4]" started-at="2024-04-17T21:31:47 IST" name="tearDownTest" finished-at="2024-04-17T21:31:48 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.DELETE_DelateTheCard -->
+      <class name="tests.Post_CreateNewCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Post_CreateNewCard@2f48b3d2]" started-at="2024-04-17T21:31:43 IST" name="setup" finished-at="2024-04-17T21:31:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewCard()[pri:1, instance:tests.Post_CreateNewCard@2f48b3d2]" started-at="2024-04-17T21:31:47 IST" name="CreateNewCard" finished-at="2024-04-17T21:31:47 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewCard -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.Post_CreateNewCard@2f48b3d2]" started-at="2024-04-17T21:31:48 IST" name="tearDownTest" finished-at="2024-04-17T21:31:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.Post_CreateNewCard -->
+      <class name="tests.GET_ListsOfCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GET_ListsOfCard@78f5c518]" started-at="2024-04-17T21:31:43 IST" name="setup" finished-at="2024-04-17T21:31:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetCardDetails()[pri:3, instance:tests.GET_ListsOfCard@78f5c518]" started-at="2024-04-17T21:31:47 IST" name="GetCardDetails" finished-at="2024-04-17T21:31:47 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCardDetails -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.GET_ListsOfCard@78f5c518]" started-at="2024-04-17T21:31:48 IST" name="tearDownTest" finished-at="2024-04-17T21:31:48 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.GET_ListsOfCard -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
