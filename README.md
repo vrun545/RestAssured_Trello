@@ -25,9 +25,6 @@ This project is an API testing framework built using Java, REST Assured, Maven, 
 4. Run `mvn test` to execute the test suite.
 5. Review the generated Extent reports for detailed test results.
 
-## Contributing
-
-Contributions are welcome! Whether it's bug fixes, enhancements, or additional test cases, feel free to fork the repository, make your changes, and submit a pull request.
 
 ## License
 
