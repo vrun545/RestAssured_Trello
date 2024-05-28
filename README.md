@@ -30,10 +30,4 @@ This project is an API testing framework built using Java, REST Assured, Maven, 
 
 This project is licensed under the [MIT License](LICENSE), allowing for both personal and commercial use with proper attribution.
 
-## Acknowledgements
-
-Special thanks to the creators and maintainers of REST Assured, TestNG, Log4j, and Extent Reports for providing the tools and libraries necessary for this project.
-
----
-
 Feel free to customize the README further with specific instructions, installation guides, or any other relevant information for users and contributors!
